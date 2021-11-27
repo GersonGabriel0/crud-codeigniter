@@ -53,7 +53,7 @@
         else:
     ?>
         <tr>
-            <td colspan="2">Nenhum registro encontrado!</td>
+            <td colspan="2">Não encomtramos nenhum registro em nosso banco de dados</td>
         </tr>
     <?php 
         endif;

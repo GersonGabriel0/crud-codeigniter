@@ -64,8 +64,8 @@
             <div class="content">
                 <div class="title m-b-md">
                     <p>CodeIgniter Trabalho Web 02</p>
-                    <a style="font-size: 50px; margin-left: 30px; text-decoration: none; " href="/clientes">Tabela de Clientes</a>
-                    <a style="font-size: 50px; margin-right: 30px; text-decoration: none; " href="produtos/overview">Tabela de Produtos</a>
+                    <a style="font-size: 50px; margin-left: 30px; text-decoration: none; " href="/vendas">Tabela de Vendas</a>
+                    <a style="font-size: 50px; margin-right: 30px; text-decoration: none; " href="/Produtos">Tabela de Produtos</a>
                 </div>
             </div>
         </div>

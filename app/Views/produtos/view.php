@@ -1,6 +1,6 @@
 <div class="view">
     <div class="row">
-        <a href="/produtos" class="btn btn-info" style="margin-right: 10px">Voltar</a>
+        <a href="/Produtos" class="btn btn-info" style="margin-right: 10px">Voltar</a>
     </div>
 
     <h2><?php echo $produtos['nome'] ?></h2>

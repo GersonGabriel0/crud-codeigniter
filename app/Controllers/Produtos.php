@@ -8,13 +8,13 @@ class Produtos extends Controller{
 
     public function index(){
         $model = new ProdutosModel();
-        $data = [
-            'produtos' => $model->getProdutos()
-        ];
+        $data['produtos'] = $model->orderBy('id','DESC')->findAll();
+            var_dump($data);
+
         
-        echo view('templates/header');
-        echo view('produtos/overview', $data);
-        echo view('templates/footer');
+            echo view('templates/header');
+            echo view('produtos/overview', $data);
+            echo view('templates/footer');
     }
 
     public function view($id = null){
@@ -22,7 +22,7 @@ class Produtos extends Controller{
         $data['produtos'] = $model->getProdutos($id);
 
         if(empty($data['produtos'])){
-            throw new \CodeIgniter\Exceptions\PageNotFoundException("Não é possível encontrar o registro: ".$id);
+            throw new \CodeIgniter\Exceptions\PageNotFoundException("Não foi possivel Localizar nenhum registro no Banco de Dados: ".$id);
         }
 
         $data['nome'] = $data['produtos']['nome'];
