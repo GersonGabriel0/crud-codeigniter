@@ -1,27 +1,36 @@
-# Atividade Prática Individual - CRUD CodeIgniter
-# Luiz Augusto Grein
+# Desenvolvimento Web  - CRUD CodeIgniter
 
-## Passos iniciais
+        ╔════•ೋೋ•════╗ 
+          Gerson Gabriel
+        ╚════•ೋೋ•════╝
 
-1. Criar manualmente um banco chamado db_crudcodeigniter
+## Primeiros Passo para instalaçao
+Loading…
+█▒▒▒▒▒▒▒▒▒
 
-2. alterar as informações do banco de dados nos arquivos:
-- .env
-- app/Config/Database.php
-Obs: Para a validação do funcionamento está liberado o arquivo .env em .gitignore
+1. Criar manualmente um banco chamado db_codeigniter
+10%
+███▒▒▒▒▒▒▒
 
-3. Criar as tabelas no banco a partir das migrations
-> php spark migrate
+2. fassa a alteração nessesaria de acordo com o seu banco de dados nos arquivos abaixo :
+##- .env
+##- app/Config/Database.php
+30%
+█████▒▒▒▒▒
 
-4. Executar servidor
-> php spark serve
+3. Para efetuar a ciação das tabelas para seus banco de dados utilize o seguinte comando
+##- php spark migrate
+50%
+███████▒▒▒
 
-## Comandos caso necessário
+4. depois de tudo concluido fassa o inicio do servidor com o comando 
+##- php spark serve
+100%
+██████████
 
-> composer update
+0. - casso seu servidor nao esteja funcionando corretamento recomendo que utilize esses codigos 
 
-> php spark migrate
-
-> php spark migrate:rollback
-
-> php spark serve
+##- composer update
+##- php spark migrate
+##- php spark migrate:rollback
+##- php spark serve
